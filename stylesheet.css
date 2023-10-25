@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.header-links {
+  display: flex;
+  gap: 24px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.prompt-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0px;
+}
+
+.signup-area {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.landing-image {
+  flex: 1;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
