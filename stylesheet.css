@@ -1,12 +1,20 @@
 body {
   display: flex;
   flex-direction: column;
-  padding: 20px 200px;
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.lander {
+  background-color: #353a31;
+  padding: 20px 200px;
+  flex-grow: 1
 }
 
 li {
@@ -14,9 +22,25 @@ li {
   padding: 0px;
 }
 
+.heading,
+.header-links,
+.header-logo,
+.landing-content,
+.action-area,
+.action-heading,
+.footer-text {
+  color: white;
+
+}
+
+.heading {
+  font-size: 36px;
+}
+
 .header-links {
   display: flex;
   gap: 24px;
+  font-size: larger;
 }
 
 .header-logo {
@@ -34,23 +58,35 @@ li {
   display: flex;
   flex: 1;
   flex-direction: column;
+  max-width: 500px;
+}
+
+.landing-content {
+  font-size: large;
 }
 
 .landing-image {
-  flex: 1;
+  width: 500px;
+  padding: 0px 0px 0px 20px;
 }
 
 .gallery {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-grow: 1
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
+.signup-button {
   width: 100px;
-
+  margin: 10px 0px;
+  color: white;
+  background-color: #34c230;
+  border: none;
+  border-radius: 12px;
+  padding: 8px;
+  font-weight: bold;
+  font-size: large;
 }
 
 .card-box {
@@ -59,4 +95,90 @@ li {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding: 24px 0px;
+}
+
+.card-img {
+  width: 240px;
+}
+
+.card-txt {
+  text-transform: uppercase;
+  display: flex;
+  width: 240px;
+  text-wrap: pretty;
+  font-size: large;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 18px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap:8px;
+}
+
+.quote-box {
+  height: 400px;
+  width: auto;
+  background-color:	#c3c2c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 60px;
+  font-style: italic;
+}
+
+.quote-attrib {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-size: 24px;
+}
+
+.action-area{
+  display: flex;
+  justify-content: center;
+}
+
+.action-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #312e28;
+  padding: 24px 100px;
+  margin: 48px;
+  border-radius: 12px;
+}
+
+.action-heading {
+  font-size: 24px;
+}
+.action-text {
+  width: 480px;
+}
+
+.action {
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  padding: 24px 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: #353a31;
+  flex-grow: 1;
+  height: auto
 }
